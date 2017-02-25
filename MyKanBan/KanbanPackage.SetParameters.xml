@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <setParameter name="IIS Web Application Name" value="Default Web Site/MyKanBan_deploy" />
+  <setParameter name="KanBanConnStr-Web.config Connection String" value="Data Source=localhost;Initial Catalog=KanBan;Persist Security Info=True;User ID=KanBan_User;Password=pass@word1" />
+</parameters>

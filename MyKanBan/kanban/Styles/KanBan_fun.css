@@ -1,0 +1,217 @@
+﻿.dwarfs{}
+.dwarf_1
+{
+    position:relative;
+    width:60px;
+    height:50px;
+    overflow:hidden;
+    text-align:center;
+    float:left;
+    cursor:pointer;
+}
+.dwarf_2
+{
+    position:relative;
+    width:46px;
+    height:50px;
+    overflow:hidden;
+    text-align:center;
+    float:left;
+    left:-24px;
+    cursor:pointer;
+}
+.dwarf_3
+{
+    position:relative;
+    width:64px;
+    height:50px;
+    overflow:hidden;
+    text-align:center;
+    float:left;
+    left:-50px;
+    cursor:pointer;
+}
+.dwarf_4
+{
+    position:relative;
+    width:70px;
+    height:50px;
+    overflow:hidden;
+    text-align:center;
+    float:left;
+    left:-83px;
+    cursor:pointer;
+}
+.cycle_panel
+{
+    font-size:20px;
+    font-family: Arial, sans-serif;
+    font-weight:700;
+    float:left;
+    color:#FFFFFF;
+    width:140px;
+    height:30px;
+    line-height:30px;
+    position:relative;
+    left:7px;
+    top:-50px;
+    overflow:hidden;
+    text-align:center;
+    cursor:pointer;
+    background-color:#898989;
+    border-radius:8px;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+}
+
+.dwarf_1 .dwarf_header
+{
+    width:30px;
+    height:30px;
+    line-height:30px;
+    border-radius:15px;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    font-size:25px;
+    z-index:56;
+    bottom:-35px;
+}
+.dwarf_1 .dwarf_body
+{
+    background-color:#E51400;
+    width:50px;
+    height:50px;
+    border-radius:25px;
+    -moz-border-radius:25px;
+    -webkit-border-radius:25px;
+    z-index:55;
+    bottom:-25px;
+}
+.dwarfs .dwarf_1 .dwarf_header{ bottom:0px; }
+.dwarfs .dwarf_1 .dwarf_body{ bottom:5px; }
+.dwarf_2 .dwarf_header
+{
+    width:24px;
+    height:24px;
+    line-height:24px;
+    border-radius:12px;
+    -moz-border-radius:12px;
+    -webkit-border-radius:12px;
+    font-size:20px;
+    z-index:59;
+    bottom:-40px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.dwarf_2 .dwarf_body
+{
+    background-color:#339933;
+    width:36px;
+    height:36px;
+    border-radius:18px;
+    -moz-border-radius:18px;
+    -webkit-border-radius:18px;
+    z-index:58;
+    bottom:-35px;
+}
+.dwarfs .dwarf_2 .dwarf_header{ bottom:-10px; }
+.dwarfs .dwarf_2 .dwarf_body{ bottom:-5px; }
+.dwarf_3 .dwarf_header
+{
+    width:28px;
+    height:28px;
+    line-height:28px;
+    border-radius:14px;
+    -moz-border-radius:14px;
+    -webkit-border-radius:14px;
+    font-size:24px;
+    z-index:53;
+    bottom:-35px;
+    -o-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.dwarf_3 .dwarf_body
+{
+    background-color:#1BA1E2;
+    width:54px;
+    height:54px;
+    border-radius:27px;
+    -moz-border-radius:27px;
+    -webkit-border-radius:27px;
+    z-index:52;
+    bottom:-40px;
+    -o-transition: all .1s ease-in-out;
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+}
+.dwarfs .dwarf_3 .dwarf_header{ bottom:-5px; }
+.dwarfs .dwarf_3 .dwarf_body{ bottom:2px; }
+.dwarf_4 .dwarf_header
+{
+    width:34px;
+    height:34px;
+    line-height:34px;
+    border-radius:17px;
+    -moz-border-radius:17px;
+    -webkit-border-radius:17px;
+    font-size:28px;
+    z-index:51;
+    bottom:-35px;
+    -o-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.dwarf_4 .dwarf_body
+{
+    background-color:#DE9317;
+    width:66px;
+    height:66px;
+    border-radius:33px;
+    -moz-border-radius:33px;
+    -webkit-border-radius:33px;
+    z-index:50;
+    bottom:-40px;
+    -o-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.dwarfs .dwarf_4 .dwarf_header{ bottom:0px; }
+.dwarfs .dwarf_4 .dwarf_body{ bottom:5px; }
+.dwarf_header
+{
+    position:relative;
+    -webkit-user-select: none;      
+    -moz-user-select: none;
+    -ms-user-select: none; 
+    -o-user-select: none;
+    user-select: none;
+    text-align:center;
+    background-color:#C9C9C9;
+    color:#FFFFFF;
+    -o-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    margin:auto;
+}
+.dwarf_body
+{
+    position:relative;
+    -webkit-user-select: none;      
+    -moz-user-select: none;
+    -ms-user-select: none; 
+    -o-user-select: none;
+    user-select: none;
+    -o-transition: all .1s ease-in-out;
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+    margin:auto;
+}

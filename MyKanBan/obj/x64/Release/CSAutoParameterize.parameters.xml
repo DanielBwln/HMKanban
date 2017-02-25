@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="KanBanConnStr-Web.config Connection String" description="KanBanConnStr Connection String used in web.config by the application to access the database." defaultValue="Data Source=localhost;Initial Catalog=KanBan;Persist Security Info=True;User ID=KanBan_User;Password=pass@word1" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\MyKanBan\\MyKanBan\\obj\\x64\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='KanBanConnStr']/@connectionString" />
+  </parameter>
+</parameters>

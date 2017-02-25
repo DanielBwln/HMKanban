@@ -1,0 +1,103 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="MyKanBan.SiteMaster" EnableViewState="true" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>KanBan</title>
+    <link href="./Styles/KanBan.css?f=2&v=<%= DATE_STRING %>" rel="stylesheet" type="text/css" />
+    <link href="./Styles/KanBan_Menu.css?v=<%= DATE_STRING %>" rel="stylesheet" type="text/css" />
+    <link href="./Styles/KanBan_fun.css?v=<%= DATE_STRING %>" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="menu" id="divMenu">
+        <div class="menugroup">
+            <img class="logo" alt="Huamei Soft" src="./Images/HuameiSoftNew.png" />
+        </div>
+        <div class="menugroup" style="width:50px;"></div>
+        <div id="divMenuGroup_KanBan" class="<%= KANBAN_GROUP_STYLE %>" onmouseover="if ( typeof KanBan_Menu != 'undefined') {KanBan_Menu.Pin('divMenuGroup_KanBan', 'divMenu_KanBan');enfun();}" onmouseout="if ( typeof KanBan_Menu != 'undefined') {KanBan_Menu.Remove('divMenu_KanBan');disfun();}"><a href="#" unselectable="on">KanBan&nbsp;&nbsp;<img src="./Images/triangle.png" class="more" /></a></div>
+        <div id="divMenuGroup_Report" class="<%= REPORT_GROUP_STYLE %>" onmouseover="if ( typeof KanBan_Menu != 'undefined') {KanBan_Menu.Pin('divMenuGroup_Report', 'divMenu_Report');enfun();}" onmouseout="if ( typeof KanBan_Menu != 'undefined') {KanBan_Menu.Remove('divMenu_Report');disfun();}"><a href="#" unselectable="on">Report&nbsp;&nbsp;<img src="./Images/triangle.png" class="more" /></a></div>
+        <div class="<%= TFS_STYLE %>" onmouseover="if ( typeof enfun != 'undefined') {enfun();}" onmouseout="if ( typeof enfun != 'undefined') {disfun();}"><a href="#" runat="server" id="lnkTFSPage" unselectable="on">TFS Query</a></div>
+        <div class="menuitem_list" id="divMenu_KanBan" style="display:none;" onmouseover="if ( typeof KanBan_Menu != 'undefined') {KanBan_Menu.Pin('divMenuGroup_KanBan', 'divMenu_KanBan');enfun();}" onmouseout="if ( typeof KanBan_Menu != 'undefined') {KanBan_Menu.Remove('divMenu_KanBan');disfun();}">
+            <div class="<%= KANBAN_STYLE %>"><a href="#" runat="server" id="lnkKanBanPage" unselectable="on">Board</a></div><div class="clear"></div>
+            <div class="<%= WAIT_STYLE %>"><a href="#" runat="server" id="lnkWaitPage" unselectable="on">Backlog</a></div><div class="clear"></div>
+            <div class="<%= BASKET_STYLE %>"><a href="#" runat="server" id="lnkBasketPage" unselectable="on">PaperBin</a></div><div class="clear"></div>
+        </div>
+        <div class="menuitem_list" id="divMenu_Report" style="display:none;" onmouseover="if ( typeof KanBan_Menu != 'undefined') {KanBan_Menu.Pin('divMenuGroup_Report', 'divMenu_Report');enfun();}" onmouseout="if ( typeof KanBan_Menu != 'undefined') {KanBan_Menu.Remove('divMenu_Report');disfun();}">
+            <div class="<%= USER_STYLE %>"><a href="#" runat="server" id="lnkUserPage" unselectable="on">Assignment</a></div><div class="clear"></div>
+            <div class="<%= SUMMARY_STYLE %>"><a href="#" runat="server" id="lnkKanBanSummary" unselectable="on">Summary</a></div><div class="clear"></div>
+            <div class="<%= RPT_CYCLE_STYLE %>"><a href="#" runat="server" id="lnkRptCycle" unselectable="on">Cycle</a></div><div class="clear"></div>
+        </div>
+        <!-- configuration start -->
+        <div class="menu_configuration">
+            <div class="menu_configuration_config">
+                <img alt="User Config" src="./Images/conf.png" onclick="if ( typeof KanBan_Menu != 'undefined') {KanBan_Menu.ShowConfig();}" id="btnUserConfig" />
+            </div>
+            <div class="menu_configuration_profile">Hi, <asp:Literal ID="litProfile" runat="server"></asp:Literal></div>
+        </div>
+        <!-- configuration end -->
+        <!-- fun start -->
+        <div class="fun_panel">
+            <div id="dwarfs" onmouseover="enfun();" onmouseout="disfun();">
+                <div class="dwarf_1">
+                    <div class="dwarf_header" id="dwarf_head_1">2</div>
+                    <div class="dwarf_body" id="dwarf_body_1"></div>
+                </div>
+                <div class="dwarf_2">
+                    <div class="dwarf_header" id="dwarf_head_2">0</div>
+                    <div class="dwarf_body" id="dwarf_body_2"></div>
+                </div>
+                <div class="dwarf_3">
+                    <div class="dwarf_header" id="dwarf_head_3">1</div>
+                    <div class="dwarf_body" id="dwarf_body_3"></div>
+                </div>
+                <div class="dwarf_4">
+                    <div class="dwarf_header" id="dwarf_head_4">3</div>
+                    <div class="dwarf_body" id="dwarf_body_4"></div>
+                </div>
+                <div class="cycle_panel">
+                    <%= CurCyclePeriod.Name %>
+                </div>
+            </div>
+        </div>
+        <!-- fun end -->
+    </div>
+    <script language="javascript" type="text/javascript" src="./Scripts/apo.js"></script>
+    <script language="javascript" type="text/javascript" src="./Scripts/apo_base.js?v=2"></script>
+    <script language="javascript" type="text/javascript" src="./Scripts/apo_animation.js"></script>
+    <script language="javascript" type="text/javascript" src="./Scripts/KanBan.js?f=3&v=<%= DATE_STRING %>"></script>
+    <script language="javascript" type="text/javascript" src="./Scripts/KanBan_Menu.js?v=<%= DATE_STRING %>"></script>
+    <script language="javascript" type="text/javascript" src="./Scripts/KanBan_fun.js?v=<%= DATE_STRING %>"></script>
+    <div class="page" id="divPage" style="overflow:hidden;visibility:hidden;">
+        <div class="header"></div>
+        <form id="Form1" runat="server" method="post" >
+            <ajaxToolkit:ToolkitScriptManager ID="sm" runat="server" ></ajaxToolkit:ToolkitScriptManager>
+            <div class="menu_config_dialog" style="display:none;" id="divUserConfig">
+                <asp:UpdatePanel ID="upConfig" runat="server" UpdateMode="Conditional" ViewStateMode="Enabled" ><ContentTemplate>
+                    <div class="menu_config_dialog_content">
+                        <div class="menu_config_dialog_content_label">Coloring:</div>
+                        <div class="menu_config_dialog_content_item">
+                            <asp:DropDownList ID="ddlColor" runat="server" AutoPostBack="true" OnSelectedIndexChanged="ddlColor_Change"></asp:DropDownList>
+                        </div>
+                    </div>
+                    <div class="menu_config_dialog_footer">
+                        <asp:LinkButton ID="lnkSubmit" runat="server" CssClass="menu_config_dialog_button" OnClientClick="KanBan_Menu.HideConfig();">Close</asp:LinkButton>
+                    </div>
+                </ContentTemplate></asp:UpdatePanel>
+            </div>
+            <div class="main" id="divMain">
+                <div class="frame" id="divFrame" >
+                    <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+                </div>
+            </div>
+            <div class="clear">
+            </div>
+        </form>
+    </div>
+    <script language="javascript" type="text/javascript">
+        fun_init();
+    </script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+﻿.columnGroupBoard
+{
+    border:1px solid #1BA1E2;
+    border-top-width:2px;
+    color:#1BA1E2;
+    table-layout:fixed;
+    overflow:visible;
+}
+
+.columnGroupBoard .StageRow
+{
+    background-color: #1BA1E2;
+}
+
+.columnGroupBoard .StageRow th
+{
+    height:30px;
+    font-size:20px;
+    border-right:1px solid #FFFFFF;
+    border-left:1px solid #FFFFFF;
+    border-bottom:1px solid #1BA1E2;
+    padding-top:0px;
+    color:#FFFFFF;
+    width:150px;
+}
+
+.columnGroupBoard .StageRow th.FirstColumn
+{
+    border:0px;
+    border-right:1px solid #FFFFFF;
+    border-bottom:1px solid #1BA1E2;
+}
+.columnGroupBoard .StageRow th.LastColumn
+{
+    border:0px;
+    border-left:1px solid #FFFFFF;
+    border-bottom:1px solid #1BA1E2;
+}
+
+.columnGroupBoard .LaneRow td
+{
+    vertical-align:top;
+    text-align:center;
+    padding:5px;
+    border-right:1px solid #1BA1E2;
+    border-left:1px solid #1BA1E2;
+    border-bottom:1px solid #1BA1E2;
+}
+
+.columnGroupBoard .LaneRow .FirstColumn
+{
+    width:200px;
+    font-weight:bold;
+    font-size:20px;
+    padding:5px;
+    padding-top:3px;
+    text-align:left;
+    overflow:hidden;
+}

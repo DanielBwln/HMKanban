@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="Default Web Site/Kanban" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^E:\\MyKanBan\\MyKanBan\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^E:\\MyKanBan\\MyKanBan\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="KanBanConnStr-Web.config Connection String" description="" value="Data Source=localhost;Initial Catalog=KanBan;Persist Security Info=True;User ID=KanBan_User;Password=pass@word1" tags="">
+    <parameterEntry kind="XmlFile" scope="E:\\MyKanBan\\MyKanBan\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='KanBanConnStr']/@connectionString" />
+  </parameter>
+</parameters>
