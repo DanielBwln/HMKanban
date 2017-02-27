@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace MyKanBan.Source.Entity.Log
+namespace HMKanBan.Source.Entity.Log
 {
     [Serializable]
     public class StoryColumnLog : Log

@@ -5,13 +5,13 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Security.Principal;
-using MyKanBan.Source.Entity;
+using HMKanBan.Source.Entity;
 using System.Text;
-using MyKanBan.Source.Util;
-using MyKanBan.Source.BL;
-using MyKanBan.Source.Entity.Log;
+using HMKanBan.Source.Util;
+using HMKanBan.Source.BL;
+using HMKanBan.Source.Entity.Log;
 
-namespace MyKanBan
+namespace HMKanBan
 {
     public partial class Kanban : System.Web.UI.Page
     {

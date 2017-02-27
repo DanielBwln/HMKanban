@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using MyKanBan.Source.DAL.Base;
-using MyKanBan.Source.Entity;
+using HMKanBan.Source.DAL.Base;
+using HMKanBan.Source.Entity;
 using System.Data.SqlClient;
-using MyKanBan.Source.View;
+using HMKanBan.Source.View;
 
-namespace MyKanBan.Source.DAL
+namespace HMKanBan.Source.DAL
 {
     public class CycleDAL : BaseDAL
     {

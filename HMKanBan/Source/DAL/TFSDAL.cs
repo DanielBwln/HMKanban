@@ -4,12 +4,12 @@ using System.Linq;
 using System.Web;
 using Microsoft.TeamFoundation.Client;
 using Microsoft.TeamFoundation.WorkItemTracking.Client;
-using MyKanBan.Source.Entity.TFS;
+using HMKanBan.Source.Entity.TFS;
 using System.Web.Configuration;
 using System.Data.SqlClient;
-using MyKanBan.Source.DAL.Base;
+using HMKanBan.Source.DAL.Base;
 
-namespace MyKanBan.Source.DAL
+namespace HMKanBan.Source.DAL
 {
     public class TFSDAL : BaseDAL
     {

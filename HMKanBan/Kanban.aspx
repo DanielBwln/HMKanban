@@ -1,7 +1,7 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Kanban.aspx.cs" Inherits="MyKanBan.Kanban" MasterPageFile="Site.Master" EnableEventValidation="false" ValidateRequest="false" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Kanban.aspx.cs" Inherits="HMKanBan.Kanban" MasterPageFile="Site.Master" EnableEventValidation="false" ValidateRequest="false" %>
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
-    <link href="./Styles/KanBan_FixedHeader.css?v=<%= MyKanBan.SiteMaster.DATE_STRING %>" rel="stylesheet" type="text/css" />
+    <link href="./Styles/KanBan_FixedHeader.css?v=<%= HMKanBan.SiteMaster.DATE_STRING %>" rel="stylesheet" type="text/css" />
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
 <div class="kanbanTitle">
@@ -242,7 +242,7 @@
         </ContentTemplate></asp:UpdatePanel>
     </div>
 </div>
-<script language="javascript" type="text/javascript" src="./Scripts/KanBan_FixedHeader.js?v=<%= MyKanBan.SiteMaster.DATE_STRING %>"></script>
+<script language="javascript" type="text/javascript" src="./Scripts/KanBan_FixedHeader.js?v=<%= HMKanBan.SiteMaster.DATE_STRING %>"></script>
 <script type="text/javascript">
     var xPos, yPos;
     var prm = Sys.WebForms.PageRequestManager.getInstance();

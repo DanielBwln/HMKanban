@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Web.Configuration;
 
-namespace MyKanBan.Source.DAL.Base
+namespace HMKanBan.Source.DAL.Base
 {
     public abstract class BaseDAL
     {

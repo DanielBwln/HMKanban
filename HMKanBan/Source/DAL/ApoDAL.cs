@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using MyKanBan.Source.DAL.Base;
+using HMKanBan.Source.DAL.Base;
 using System.Data.SqlClient;
-using MyKanBan.Source.Entity;
+using HMKanBan.Source.Entity;
 
-namespace MyKanBan.Source.DAL
+namespace HMKanBan.Source.DAL
 {
     public class ApoDAL : BaseDAL
     {

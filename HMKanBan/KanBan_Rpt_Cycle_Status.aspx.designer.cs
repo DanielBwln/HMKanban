@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MyKanBan {
+namespace HMKanBan {
     
     
     public partial class KanBan_Rpt_Cycle_Status {

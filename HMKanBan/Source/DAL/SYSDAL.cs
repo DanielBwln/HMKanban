@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using MyKanBan.Source.DAL.Base;
-using MyKanBan.Source.Entity.TFS;
+using HMKanBan.Source.DAL.Base;
+using HMKanBan.Source.Entity.TFS;
 using System.Data.SqlClient;
-using MyKanBan.Source.Entity;
+using HMKanBan.Source.Entity;
 
-namespace MyKanBan.Source.DAL
+namespace HMKanBan.Source.DAL
 {
     public class SYSDAL : BaseDAL
     {

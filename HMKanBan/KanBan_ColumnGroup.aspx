@@ -1,9 +1,9 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="KanBan_ColumnGroup.aspx.cs" Inherits="MyKanBan.KanBan_ColumnGroup" EnableEventValidation="false" ValidateRequest="false"  %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="KanBan_ColumnGroup.aspx.cs" Inherits="HMKanBan.KanBan_ColumnGroup" EnableEventValidation="false" ValidateRequest="false"  %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
-    <link href="./Styles/KanBan_FixedHeader.css?v=<%= MyKanBan.SiteMaster.DATE_STRING %>" rel="stylesheet" type="text/css" />
-    <link href="./Styles/KanBan_Tile.css?v=<%= MyKanBan.SiteMaster.DATE_STRING %>" rel="stylesheet" type="text/css" />
-    <link href="./Styles/KanBan_ColumnGroup.css?v=<%= MyKanBan.SiteMaster.DATE_STRING %>" rel="stylesheet" type="text/css" />
-    <link href="./Styles/KanBan_FixedHeader.css?v=<%= MyKanBan.SiteMaster.DATE_STRING %>" rel="stylesheet" type="text/css" />
+    <link href="./Styles/KanBan_FixedHeader.css?v=<%= HMKanBan.SiteMaster.DATE_STRING %>" rel="stylesheet" type="text/css" />
+    <link href="./Styles/KanBan_Tile.css?v=<%= HMKanBan.SiteMaster.DATE_STRING %>" rel="stylesheet" type="text/css" />
+    <link href="./Styles/KanBan_ColumnGroup.css?v=<%= HMKanBan.SiteMaster.DATE_STRING %>" rel="stylesheet" type="text/css" />
+    <link href="./Styles/KanBan_FixedHeader.css?v=<%= HMKanBan.SiteMaster.DATE_STRING %>" rel="stylesheet" type="text/css" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 <div class="kanbanTitle">
@@ -30,8 +30,8 @@
         </div>
     </div>
 </div>
-<script language="javascript" type="text/javascript" src="./Scripts/KanBan_FixedHeader.js?v=<%= MyKanBan.SiteMaster.DATE_STRING %>"></script>
-<script language="javascript" type="text/javascript" src="./Scripts/KanBan_FixedHeader.js?v=<%= MyKanBan.SiteMaster.DATE_STRING %>"></script>
+<script language="javascript" type="text/javascript" src="./Scripts/KanBan_FixedHeader.js?v=<%= HMKanBan.SiteMaster.DATE_STRING %>"></script>
+<script language="javascript" type="text/javascript" src="./Scripts/KanBan_FixedHeader.js?v=<%= HMKanBan.SiteMaster.DATE_STRING %>"></script>
 <script language="javascript" type="text/javascript">
     function Init() {
         KanBan_FixedHeader.HeaderName = "Flyer";

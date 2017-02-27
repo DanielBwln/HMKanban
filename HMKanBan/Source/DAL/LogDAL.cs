@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using MyKanBan.Source.Entity.Log;
+using HMKanBan.Source.Entity.Log;
 using System.Data.SqlClient;
 using System.Web.Configuration;
-using MyKanBan.Source.Entity;
-using MyKanBan.Source.DAL.Base;
+using HMKanBan.Source.Entity;
+using HMKanBan.Source.DAL.Base;
 
-namespace MyKanBan.Source.DAL
+namespace HMKanBan.Source.DAL
 {
     public class LogDAL : BaseDAL
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace MyKanBan.Source.Entity.TFS
+namespace HMKanBan.Source.Entity.TFS
 {
     public class TFSObjectFactory
     {

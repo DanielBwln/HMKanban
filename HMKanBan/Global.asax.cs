@@ -4,11 +4,11 @@ using System.Linq;
 using System.Web;
 using System.Web.Security;
 using System.Web.SessionState;
-using MyKanBan.Source.Entity.TFS;
-using MyKanBan.Source.DAL;
+using HMKanBan.Source.Entity.TFS;
+using HMKanBan.Source.DAL;
 using System.IO.Compression;
 
-namespace MyKanBan
+namespace HMKanBan
 {
     public class Global : System.Web.HttpApplication
     {
