@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMKanBan", "MyKanBan\HMKanBan.csproj", "{F4B43B9C-B1D4-44D9-80DA-985F3920442F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMKanBan", "HMKanBan\HMKanBan.csproj", "{F4B43B9C-B1D4-44D9-80DA-985F3920442F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
