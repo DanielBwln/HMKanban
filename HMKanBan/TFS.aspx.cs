@@ -4,14 +4,14 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using MyKanBan.Source.Entity;
+using HMKanBan.Source.Entity;
 using System.Security.Principal;
-using MyKanBan.Source.BL;
-using MyKanBan.Source.Entity.TFS;
+using HMKanBan.Source.BL;
+using HMKanBan.Source.Entity.TFS;
 using System.Text;
-using MyKanBan.Source.DAL;
+using HMKanBan.Source.DAL;
 
-namespace MyKanBan
+namespace HMKanBan
 {
     public partial class TFS : System.Web.UI.Page
     {

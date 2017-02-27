@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="KanBan_Rpt_Cycle_Status.aspx.cs" Inherits="MyKanBan.KanBan_Rpt_Cycle_Status" EnableEventValidation="false" ValidateRequest="false" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="KanBan_Rpt_Cycle_Status.aspx.cs" Inherits="HMKanBan.KanBan_Rpt_Cycle_Status" EnableEventValidation="false" ValidateRequest="false" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 <style type="text/css">
     .CycleContainer

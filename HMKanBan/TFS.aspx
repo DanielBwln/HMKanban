@@ -1,7 +1,7 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="TFS.aspx.cs" Inherits="MyKanBan.TFS" EnableEventValidation="false" ValidateRequest="false"  %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="TFS.aspx.cs" Inherits="HMKanBan.TFS" EnableEventValidation="false" ValidateRequest="false"  %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
-    <link href="./Styles/KanBan_TFS.css?v=<%= MyKanBan.SiteMaster.DATE_STRING %>" rel="stylesheet" type="text/css" />
+    <link href="./Styles/KanBan_TFS.css?v=<%= HMKanBan.SiteMaster.DATE_STRING %>" rel="stylesheet" type="text/css" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 <div class="kanbanContainer">
@@ -63,7 +63,7 @@
         </div>
     </fieldset>
 </div>
-<script language="javascript" type="text/javascript" src="./Scripts/KanBan_TFS.js?v=<%= MyKanBan.SiteMaster.DATE_STRING %>"></script>
+<script language="javascript" type="text/javascript" src="./Scripts/KanBan_TFS.js?v=<%= HMKanBan.SiteMaster.DATE_STRING %>"></script>
 <script language="javascript" type="text/javascript">
     function ExtendList() {
         var tbl = document.getElementById("tblTFS");

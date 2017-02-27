@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using Microsoft.TeamFoundation.WorkItemTracking.Client;
-using MyKanBan.Source.BL;
-using MyKanBan.Source.Util;
+using HMKanBan.Source.BL;
+using HMKanBan.Source.Util;
 
-namespace MyKanBan.Source.Entity.TFS
+namespace HMKanBan.Source.Entity.TFS
 {
     [Serializable]
     public class TFSObject

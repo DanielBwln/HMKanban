@@ -4,11 +4,11 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using MyKanBan.Source.BL;
-using MyKanBan.Source.Entity;
-using MyKanBan.Source.DAL;
+using HMKanBan.Source.BL;
+using HMKanBan.Source.Entity;
+using HMKanBan.Source.DAL;
 
-namespace MyKanBan
+namespace HMKanBan
 {
     public partial class ApoTest : System.Web.UI.Page
     {

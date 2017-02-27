@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Anony.Master" AutoEventWireup="true" CodeBehind="ApoTest.aspx.cs" Inherits="MyKanBan.ApoTest" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Anony.Master" AutoEventWireup="true" CodeBehind="ApoTest.aspx.cs" Inherits="HMKanBan.ApoTest" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">

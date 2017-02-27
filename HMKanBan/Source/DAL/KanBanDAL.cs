@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Configuration;
-using MyKanBan.Source.Entity;
+using HMKanBan.Source.Entity;
 using System.Data.SqlClient;
-using MyKanBan.Source.DAL.Base;
+using HMKanBan.Source.DAL.Base;
 
-namespace MyKanBan.Source.DAL
+namespace HMKanBan.Source.DAL
 {
     public class KanBanDAL : BaseDAL
     {
