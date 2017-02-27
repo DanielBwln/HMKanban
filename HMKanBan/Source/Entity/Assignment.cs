@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace MyKanBan.Source.Entity
+namespace HMKanBan.Source.Entity
 {
     [Serializable]
     public class Assignment

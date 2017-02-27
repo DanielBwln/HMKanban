@@ -4,12 +4,12 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using MyKanBan.Source.Entity;
-using MyKanBan.Source.BL;
-using MyKanBan.Source.View;
+using HMKanBan.Source.Entity;
+using HMKanBan.Source.BL;
+using HMKanBan.Source.View;
 using System.Text;
 
-namespace MyKanBan
+namespace HMKanBan
 {
     public partial class KanBan_Rpt_Cycle_Status : System.Web.UI.Page
     {

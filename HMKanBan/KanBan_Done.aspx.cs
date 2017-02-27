@@ -4,13 +4,13 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using MyKanBan.Source.Entity;
+using HMKanBan.Source.Entity;
 using System.Security.Principal;
-using MyKanBan.Source.BL;
+using HMKanBan.Source.BL;
 using System.Text;
-using MyKanBan.Source.Entity.Log;
+using HMKanBan.Source.Entity.Log;
 
-namespace MyKanBan
+namespace HMKanBan
 {
     public partial class KanBan_Done : System.Web.UI.Page
     {

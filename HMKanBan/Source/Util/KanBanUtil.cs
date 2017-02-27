@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
-using MyKanBan.Source.Entity;
-using MyKanBan.Source.BL;
+using HMKanBan.Source.Entity;
+using HMKanBan.Source.BL;
 
-namespace MyKanBan.Source.Util
+namespace HMKanBan.Source.Util
 {
     public class KanBanUtil
     {

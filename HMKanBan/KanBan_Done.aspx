@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="KanBan_Done.aspx.cs" Inherits="MyKanBan.KanBan_Done" EnableEventValidation="false" ValidateRequest="false"  %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="KanBan_Done.aspx.cs" Inherits="HMKanBan.KanBan_Done" EnableEventValidation="false" ValidateRequest="false"  %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">

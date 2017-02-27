@@ -4,13 +4,13 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using MyKanBan.Source.Entity;
-using MyKanBan.Source.BL;
+using HMKanBan.Source.Entity;
+using HMKanBan.Source.BL;
 using System.Security.Principal;
 using System.Text;
-using MyKanBan.Source.Util;
+using HMKanBan.Source.Util;
 
-namespace MyKanBan
+namespace HMKanBan
 {
     public partial class KanBan_Waitting : System.Web.UI.Page
     {

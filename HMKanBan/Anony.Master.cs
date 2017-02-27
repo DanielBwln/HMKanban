@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace MyKanBan
+namespace HMKanBan
 {
     public partial class Anony : System.Web.UI.MasterPage
     {

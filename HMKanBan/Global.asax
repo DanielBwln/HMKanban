@@ -1,1 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.cs" Inherits="MyKanBan.Global" Language="C#" %>
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="HMKanBan.Global" Language="C#" %>

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="UserStoryList.aspx.cs" Inherits="MyKanBan.UserStoryList" EnableEventValidation="false" ValidateRequest="false" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="UserStoryList.aspx.cs" Inherits="HMKanBan.UserStoryList" EnableEventValidation="false" ValidateRequest="false" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">

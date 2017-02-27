@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using MyKanBan.Source.Entity;
-using MyKanBan.Source.DAL;
-using MyKanBan.Source.Entity.TFS;
-using MyKanBan.Source.Util;
-using MyKanBan.Source.Entity.Log;
-using MyKanBan.Source.View;
+using HMKanBan.Source.Entity;
+using HMKanBan.Source.DAL;
+using HMKanBan.Source.Entity.TFS;
+using HMKanBan.Source.Util;
+using HMKanBan.Source.Entity.Log;
+using HMKanBan.Source.View;
 
-namespace MyKanBan.Source.BL
+namespace HMKanBan.Source.BL
 {
     public class KanBanBL
     {
