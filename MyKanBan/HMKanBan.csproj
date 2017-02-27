@@ -259,7 +259,6 @@
     <Compile Include="Source\Util\KanBanUtil.cs" />
     <Compile Include="Source\View\BaseVO.cs" />
     <Compile Include="Source\View\StoryPeriodStatusVO.cs" />
-    <Compile Include="Test.cs" />
     <Compile Include="TFS.aspx.cs">
       <DependentUpon>TFS.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
