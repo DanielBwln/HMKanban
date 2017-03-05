@@ -191,6 +191,7 @@ namespace HMKanBan
             catch (Exception ex)
             {
                 // do nothing
+                throw ex;
             }
         }
         protected void btnUpdateStoryStatus_Click(object sender, EventArgs e)
@@ -210,6 +211,7 @@ namespace HMKanBan
             catch (Exception ex)
             {
                 // do nothing for now
+                throw ex;
             }
         }
         protected void btnUpdateStory_Click(object sender, EventArgs e)
@@ -335,6 +337,7 @@ namespace HMKanBan
             }
             catch (Exception ex)
             {
+                throw ex;
             }
         }
 
@@ -380,6 +383,7 @@ namespace HMKanBan
             }
             catch (Exception ex)
             {
+                throw ex;
             }
         }
         protected void EGRemoveButton_Click(object sender, EventArgs e)
@@ -404,6 +408,7 @@ namespace HMKanBan
             }
             catch (Exception ex)
             {
+                throw ex;
             }
         }
         #endregion

@@ -733,6 +733,7 @@ namespace HMKanBan
             }
             catch (Exception ex)
             {
+                throw ex;
             }
         }
         protected void EGRemoveButton_Click(object sender, EventArgs e)
@@ -757,6 +758,7 @@ namespace HMKanBan
             }
             catch (Exception ex)
             {
+                throw ex;
             }
         }
 

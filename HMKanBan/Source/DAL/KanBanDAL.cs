@@ -102,6 +102,7 @@ namespace HMKanBan.Source.DAL
             }
             catch (Exception ex)
             {
+                throw ex;
             }
             finally
             {
