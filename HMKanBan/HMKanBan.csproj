@@ -293,7 +293,7 @@
     <Content Include="Anony.Master" />
     <Content Include="packages.config" />
     <Content Include="DB\KanBan.bak" />
-    <None Include="Properties\PublishProfiles\ProfileHM006.pubxml" />
+    <None Include="Properties\PublishProfiles\Kanban.pubxml" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
